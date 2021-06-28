@@ -59,7 +59,7 @@ haversine = math.acos(math.sin(y1)*math.sin(y2)+math.cos(y1)
 # HAVERSINE(RADIANS) TO DEGREES
 deg = math.degrees(haversine)
 
-# PI SQUARED X RE(RADIUS EARTH) X DEG(HAVERSINE DEGREES) : 360
+# 2PI(math.tau) X RE(RADIUS EARTH) X DEG(HAVERSINE DEGREES) : 360
 outcome = math.tau * re * deg / 360
 
 # OUTCOME IN DISTANCE BETWEEN TWO PLACES
