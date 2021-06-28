@@ -29,7 +29,7 @@ the outcome is in kilometers by default. if you want the outcome in miles simply
 
 ## Sources used
 
-with the help of this video about great circle distance I was able to learn how the math behind this project works:
+Because of the fact that I was completly unfimiliar with the math behind this project, I used the help of this video:
 https://www.youtube.com/watch?v=634GucAdzzA&ab_channel=SpaceflightScience
 
 documentation python math operaters used in this project:
