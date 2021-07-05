@@ -18,7 +18,7 @@ after succesfully getting the outcome in radians from the haversine formula it g
 
 ## Notes:
 
-since the python math operaters used in this script are calculated with radians we have to convert degrees to radians first and later convert them back to get the right outcome.
+Since the python math operaters used in this script are calculated with radians we have to convert degrees to radians first and later convert them back to get the right outcome.
 
 the outcome is in kilometers by default. if you want the outcome in miles simply multiply the amount of kilometers by 0.6214
 
