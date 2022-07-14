@@ -35,4 +35,26 @@ https://www.youtube.com/watch?v=634GucAdzzA&ab_channel=SpaceflightScience
 documentation python math operaters used in this project:
 https://docs.python.org/3/library/math.html
 
+'vba'
+
+Sub CreateFoldersandSubFolders()
+On Error Resume Next
+
+'Loop through all the cells available in excel
+For i = 1 To ActiveSheet.UsedRange.Rows.Count
+
+'Name folder
+sfolderpath = "excel opdracht" & "\" & Cells(i, 1)
+
+
+Shell "cmd /c  mkdir """ & sfolderpath & """", vbHide
+
+Next i
+
+
+MsgBox "Folders Created"
+
+End Sub
+
+
 
